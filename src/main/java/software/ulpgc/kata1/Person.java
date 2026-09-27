@@ -1,6 +1,7 @@
 package software.ulpgc.kata1;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public record Person(String name, LocalDate birthDate) {
 
@@ -18,4 +19,6 @@ public record Person(String name, LocalDate birthDate) {
     public String toString() {
         return "Person [name=" + name + ", birthDate=" + birthDate + ", age=" + getAge() + "]";
     }
+
+
 }
