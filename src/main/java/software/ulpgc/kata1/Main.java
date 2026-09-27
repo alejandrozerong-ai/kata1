@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Julio Zheng", LocalDate.of(1973, 11, 28));
+        Person person = new Person("Michael Robleis", LocalDate.of(1999, 9, 1));
         System.out.println(person);
     }
 }

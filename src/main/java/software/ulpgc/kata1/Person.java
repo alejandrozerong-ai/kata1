@@ -19,4 +19,3 @@ public record Person(String name, LocalDate birthDate) {
         return "Person [name=" + name + ", birthDate=" + birthDate + ", age=" + getAge() + "]";
     }
 }
-
